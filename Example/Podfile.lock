@@ -1,0 +1,27 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - YHWebImage (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - YHWebImage (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Expecta
+    - Specta
+
+EXTERNAL SOURCES:
+  YHWebImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  YHWebImage: b49d4bb2dd75ab110c1cdd3a44f54dec5f3556db
+
+PODFILE CHECKSUM: 69075c41bb990c0d7967c151aca8f3dcf61e2a7c
+
+COCOAPODS: 1.6.2
