@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YHWebImage'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of YHWebImage.'
+  s.version          = '0.0.1'
+  s.summary          = '一个简单的图片处理工具.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/yuanhua_zhong@icloud.com/YHWebImage'
+  s.homepage         = 'https://github.com/zlharry/YHWebImage'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'yuanhua_zhong@icloud.com' => 'yuanhua_zhong@icloud.com' }
-  s.source           = { :git => 'https://github.com/yuanhua_zhong@icloud.com/YHWebImage.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/zlharry/YHWebImage.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
