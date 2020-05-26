@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UIImage+YHWebImage.h"
 
 FOUNDATION_EXPORT double YHWebImageVersionNumber;
 FOUNDATION_EXPORT const unsigned char YHWebImageVersionString[];
