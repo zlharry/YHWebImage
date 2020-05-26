@@ -1,9 +1,9 @@
 {
   "name": "YHWebImage",
-  "version": "0.1.0",
-  "summary": "A short description of YHWebImage.",
+  "version": "0.0.1",
+  "summary": "一个简单的图片处理工具.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/yuanhua_zhong@icloud.com/YHWebImage",
+  "homepage": "https://github.com/zlharry/YHWebImage",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,19 @@
     "yuanhua_zhong@icloud.com": "yuanhua_zhong@icloud.com"
   },
   "source": {
-    "git": "https://github.com/yuanhua_zhong@icloud.com/YHWebImage.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/zlharry/YHWebImage.git",
+    "tag": "0.0.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YHWebImage/Classes/**/*"
+  "source_files": "YHWebImage/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+      "5.0.6"
+    ],
+    "SVGKit": [
+      "2.1.1"
+    ]
+  }
 }

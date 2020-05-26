@@ -17,7 +17,7 @@ YHWebImage is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YHWebImage'
+pod 'YHWebImage', :git => 'https://github.com/zlharry/YHWebImage.git'
 ```
 
 ## Author

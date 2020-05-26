@@ -1,7 +1,17 @@
 PODS:
+  - CocoaLumberjack (3.6.1):
+    - CocoaLumberjack/Core (= 3.6.1)
+  - CocoaLumberjack/Core (3.6.1)
   - Expecta (1.0.6)
+  - SDWebImage (5.0.6):
+    - SDWebImage/Core (= 5.0.6)
+  - SDWebImage/Core (5.0.6)
   - Specta (1.0.7)
-  - YHWebImage (0.1.0)
+  - SVGKit (2.1.1):
+    - CocoaLumberjack (~> 3.0)
+  - YHWebImage (0.0.1):
+    - SDWebImage (= 5.0.6)
+    - SVGKit (= 2.1.1)
 
 DEPENDENCIES:
   - Expecta
@@ -10,17 +20,23 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - CocoaLumberjack
     - Expecta
+    - SDWebImage
     - Specta
+    - SVGKit
 
 EXTERNAL SOURCES:
   YHWebImage:
     :path: "../"
 
 SPEC CHECKSUMS:
+  CocoaLumberjack: b17ae15142558d08bbacf69775fa10c4abbebcc9
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  YHWebImage: b49d4bb2dd75ab110c1cdd3a44f54dec5f3556db
+  SVGKit: 652cdf7bef8bec8564d04a8511d3ab50c7595fac
+  YHWebImage: 87e329c01a34b605ae12bf591a30ac748518515f
 
 PODFILE CHECKSUM: 69075c41bb990c0d7967c151aca8f3dcf61e2a7c
 
